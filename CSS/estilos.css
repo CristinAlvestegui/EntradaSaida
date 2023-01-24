@@ -1,0 +1,20 @@
+#colunas{
+    column-count: 3;
+    display: block;
+    margin: 2% 5%;
+}
+
+button{
+    
+    width: 90px;
+    height: 45px;
+    background-color: hotpink;
+    border: none;
+    border-radius: 8%;
+    color: #fff;
+}
+
+a{
+    text-decoration: none;
+    width: 2px;
+}
