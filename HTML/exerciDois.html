@@ -4,16 +4,20 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="../CSS/estilos.css">
+    <title>Exercicio 02</title>
 </head>
 <body>
     <h2>Exercicio 2</h2>
     <p>
-        Realizar a sequência de Fibonacci até o número 100.
+        Realizar a sequência de Fibonacci até o número que você desejar.
     </p>
     <form action="../PHP/exerci02.php">
         <label>Sequência</label>
-        <input>
+        <input type="number" name="seque">
+        <button type="submit" onclick="fibonacci()">Fibonacci</button>
     </form>   
+
+    <a href="../HTML/btn.html"><button>Voltar</button></a>
 </body>
 </html>

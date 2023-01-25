@@ -4,6 +4,6 @@
         $cons = $_POST['consumo']; //aqui nos estamos referendo ao name do input em HTML
         return $dis / $cons;
     }
-    echo calcular();
+
 ?>
 <br><a href="../HTML/btn.html"><button>Voltar</button></a>

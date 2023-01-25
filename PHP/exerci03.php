@@ -17,7 +17,7 @@
             $cont--;
         }
         return $den;
-    } 
+    }
 ?>
 <p>O valor em Decimal é: </p>
 <?php
